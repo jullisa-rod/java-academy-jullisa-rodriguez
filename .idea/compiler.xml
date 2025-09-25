@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MathApplication" />
         <module name="demo-cat" />
+        <module name="RecapFunDay4" />
         <module name="StringApplication" />
         <module name="cat-ex" />
         <module name="ShoppingList" />
