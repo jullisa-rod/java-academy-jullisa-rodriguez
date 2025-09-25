@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MathApplication" />
         <module name="demo-cat" />
+        <module name="StringApplication" />
+        <module name="cat-ex" />
+        <module name="ShoppingList" />
       </profile>
     </annotationProcessing>
   </component>
