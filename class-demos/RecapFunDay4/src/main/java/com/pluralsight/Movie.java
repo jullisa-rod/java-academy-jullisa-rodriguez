@@ -12,6 +12,12 @@ public class Movie {
             System.out.println("we got popcorn!");
         } else if(!gotPopcorn) {
             System.out.println("We don't have popcorn yet.");
+        } if (pizzaPrice > 3){
+            System.out.println("Whoa, that pizza is expensive! ");
+        } else {
+            System.out.println("Nice budget-friendly movie night!");
         }
+
+        System.out.printf("Movie %s | Guests: %d | Total Cost: $%f.2", movieTitle, friendsInvited, pizzaPrice);
     }
 }
