@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MathApplication" />
         <module name="demo-cat" />
-        <module name="RecapFunDay4" />
         <module name="StringApplication" />
         <module name="cat-ex" />
         <module name="ShoppingList" />
+        <module name="MathApplication" />
+        <module name="BasicCalculator" />
+        <module name="RecapFunDay4" />
       </profile>
     </annotationProcessing>
   </component>
