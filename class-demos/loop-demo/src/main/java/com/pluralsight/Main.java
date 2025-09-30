@@ -37,33 +37,37 @@ public class Main {
         do {
             System.out.println("This will print once, even though k = " + k);
             k--;
-        } while (k > 0);
-        System.out.println("For Loop: printing even numbers till 50");
-        for (int 1 = 1; 1 < 50; 1++) 1
-        if (1%2==0){
-            System.out.println("even number: " + i);
+        } while (k > 1);
+
+
+
+
+        //System.out.println("For Loop: printing even numbers till 50");
+        //for (int 1 = 1; 1 < 50; 1++) 1
+       // if (1%2==0){
+           // System.out.println("even number: " + i);
         }
-｝
+ //｝
 // 2. WHILE LOOP
 // Use when you don't know how many times in advance
-        System.out.println(" While Loop: Counting down timer from 5 seconds");
-        int j = 5;
-        while (>0){
-            System.out.println("Countdown: " + j);
-            try {
-                Thread. sleep ( millis: 1000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-｝
-                ゴー；
-            }
+       // System.out.println(" While Loop: Counting down timer from 5 seconds");
+        //int j = 5;
+        //while (>0){
+         //   System.out.println("Countdown: " + j);
+         //   try {
+               // Thread. sleep ( millis: 1000);
+         //   } catch (InterruptedException e) {
+        //        throw new RuntimeException(e);
+//｝
+              //  ゴー；
+          //  }
 // 3. DO... WHILE LOOP
 // Always runs at least once, even if condition is false
-            String enter = "";
-            do {
-                System.out.println("\nEnter whatever you want(exit to terminate): ");
-                enter = scanner.nextLine().trim;
-            } while (!enter.equals("exit"));
+           // String enter = "";
+          //  do {
+               //System.out.println("\nEnter whatever you want(exit to terminate): ");
+             //   enter = scanner.nextLine().trim;
+            //} while (!enter.equals("exit"));
 
         }
 }

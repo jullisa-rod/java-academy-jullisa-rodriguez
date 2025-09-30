@@ -16,5 +16,8 @@
         <module name="RecapFunDay4" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="workbook2a" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
